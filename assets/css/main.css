@@ -145,3 +145,25 @@ footer {
     padding: 40px 30px;
   }
 }
+
+@media (max-width: 768px) {
+
+  section {
+    padding: 50px 22px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  .brand-subtitle {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .breadcrumb {
+    font-size: 13px;
+    line-height: 1.6;
+  }
+
+}
