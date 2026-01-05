@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Royal Machine Tools | About & Products</title>
+
+  <!-- GLOBAL STYLES -->
+  <link rel="stylesheet" href="assets/css/main.css">
+
+  <!-- PAGE-SPECIFIC STYLES -->
+  <style>
+    header {
+      border-bottom: 3px solid #2563eb;
+    }
+
+    nav {
+      margin-top: 12px;
+    }
+
+    nav a {
+      color: #1e293b;
+      margin-right: 28px;
+      text-decoration: none;
+      font-weight: 700;
+      font-family: 'Oswald', sans-serif;
+      font-size: 16px;
+      letter-spacing: 1px;
+      position: relative;
+    }
+
+    nav a::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -6px;
+      width: 0;
+      height: 2px;
+      background-color: #2563eb;
+      transition: width 0.3s ease;
+    }
+
+    nav a:hover::after {
+      width: 100%;
+    }
+
+    /* ABOUT SECTION */
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 50px;
+      margin-top: 30px;
+    }
+
+    .about-text p {
+      font-size: 16px;
+      line-height: 1.9;
+      color: #334155;
+      margin-bottom: 18px;
+    }
+
+    .about-box {
+      background: linear-gradient(135deg, #f8fafc, #eef2ff);
+      border: 1px solid #e5e7eb;
+      padding: 32px 34px;
+      border-radius: 14px;
+      box-shadow: 0 10px 22px rgba(0,0,0,0.06);
+    }
+
+    .about-box p {
+      margin: 0 0 16px 0;
+      font-size: 15px;
+      color: #334155;
+      line-height: 1.7;
+    }
+
+    .about-box strong {
+      display: block;
+      font-family: 'Oswald', sans-serif;
+      font-size: 14px;
+      letter-spacing: 1px;
+      color: #1e40af;
+      margin-bottom: 4px;
+    }
+
+    /* PRODUCTS */
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 28px;
+      margin-top: 30px;
+    }
+
+    .product-card {
+      background: #f8fafc;
+      padding: 26px;
+      border-radius: 14px;
+      border: 1px solid #e5e7eb;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .product-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+    }
+
+    .product-card h3 {
+      margin-top: 0;
+      margin-bottom: 8px;
+      font-family: 'Oswald', sans-serif;
+      letter-spacing: 1px;
+    }
+
+    .product-card p {
+      font-size: 14.8px;
+      line-height: 1.65;
+      color: #475569;
+      margin-top: 10px;
+    }
+
+    .product-link {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+
+    @media (max-width: 900px) {
+      .about-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="top-bar">
+  <span>📞 +91 93242 71919 | +91 98921 44936</span>
+  <span>✉️ royalmachinetools786@gmail.com</span>
+</div>
+
+<header>
+  <h1 class="company-name">Royal Machine Tools</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+  </nav>
+</header>
+
+<section id="about">
+  <h2>About Royal Machine Tools</h2>
+
+  <div class="about-grid">
+    <div class="about-text">
+      <p>
+        <strong>Royal Machine Tools</strong> is a trusted supplier of industrial
+        machine tools, power tools, and pumping solutions, serving professionals
+        and businesses with dependable sales and service support.
+      </p>
+      <p>
+        With years of industry experience, we deal in products from leading
+        national and international brands, focusing on quality, performance,
+        and long-term reliability for demanding applications.
+      </p>
+    </div>
+
+    <div class="about-box">
+      <p><strong>GST No:</strong> 27AAPH4821N1ZA</p>
+      <p>
+        <strong>Address:</strong><br />
+        CTS No. 472/A, Cardinal Gracious Road,<br />
+        Near Silver Utopia Complex,<br />
+        Chakala, Andheri (E), Mumbai – 400 099
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="products">
+  <h2>Products & Brands We Deal In</h2>
+
+  <div class="products">
+    <a href="pages/bosch/index.html" class="product-link"><div class="product-card"><h3>Bosch</h3><p>High-quality Bosch power tools and high-pressure washers engineered for precision, durability, and consistent performance across professional and industrial applications.</p></div></a>
+    <a href="pages/hitachi/index.html" class="product-link"><div class="product-card"><h3>Hitachi</h3><p>Robust and reliable Hitachi power tools designed for heavy-duty industrial use, offering long service life, high efficiency, and dependable performance.</p></div></a>
+    <a href="pages/kpt/index.html" class="product-link"><div class="product-card"><h3>KPT</h3><p>Trusted Indian-made power tools known for durability and value, suitable for workshops, fabrication units, and everyday industrial requirements.</p></div></a>
+    <a href="pages/dewalt/index.html" class="product-link"><div class="product-card"><h3>DeWalt</h3><p>Premium professional power tools built for demanding environments, combining power, precision, and rugged construction for long-term reliability.</p></div></a>
+    <a href="pages/kirloskar/index.html" class="product-link"><div class="product-card"><h3>Kirloskar</h3><p>Industry-proven pumps and motors engineered for efficient water handling, widely used in commercial, industrial, and agricultural applications.</p></div></a>
+    <a href="pages/crompton/index.html" class="product-link"><div class="product-card"><h3>Crompton</h3><p>Energy-efficient water pumps and motors designed for reliable performance, suitable for residential, commercial, and light industrial use.</p></div></a>
+    <a href="pages/sparta/index.html" class="product-link"><div class="product-card"><h3>Sparta</h3><p>High-performance water pumps built for durability and efficiency, delivering reliable operation for both everyday and demanding pumping applications.</p></div></a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Royal Machine Tools. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
