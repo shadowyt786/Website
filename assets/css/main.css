@@ -1,0 +1,147 @@
+/* ==============================
+   GOOGLE FONTS
+============================== */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500;600;700&family=Cinzel:wght@600;700;800&display=swap');
+
+/* ==============================
+   BASE STYLES
+============================== */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #f4f6f9;
+  color: #1f2937;
+}
+
+/* ==============================
+   TOP BAR
+============================== */
+.top-bar {
+  background: linear-gradient(90deg, #0f172a, #020617);
+  color: #e5e7eb;
+  padding: 10px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+}
+
+.home-link {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.home-link:hover {
+  color: #94a3b8;
+}
+
+/* ==============================
+   HEADER
+============================== */
+header {
+  background: linear-gradient(180deg, #ffffff, #f8fafc);
+  padding: 32px 40px;
+}
+
+.company-name {
+  margin: 0;
+  font-family: 'Cinzel', serif;
+  font-size: 56px;
+  font-weight: 800;
+  letter-spacing: 4px;
+  color: #b45309;
+  text-transform: uppercase;
+}
+
+.brand-subtitle {
+  margin-top: 6px;
+  font-size: 15px;
+  color: #475569;
+}
+
+/* ==============================
+   LAYOUT
+============================== */
+section {
+  padding: 70px 40px;
+  margin: 40px auto;
+  max-width: 1200px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 30px;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+/* ==============================
+   COMMON CONTENT BLOCK
+============================== */
+.content-box {
+  padding: 55px 60px;
+  background: #ffffff;
+  border-radius: 20px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.18);
+}
+
+.section-label {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 2px;
+  font-size: 14px;
+  margin: 0 0 12px 0;
+}
+
+.section-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 32px;
+  letter-spacing: 1.5px;
+  margin-top: 0;
+  margin-bottom: 22px;
+  color: #0f172a;
+}
+
+.section-divider {
+  width: 60px;
+  height: 3px;
+  margin-bottom: 26px;
+}
+
+.section-text {
+  font-size: 17px;
+  line-height: 1.9;
+  color: #475569;
+  max-width: 900px;
+}
+
+/* ==============================
+   FOOTER
+============================== */
+footer {
+  text-align: center;
+  padding: 30px;
+  background-color: #020617;
+  color: #94a3b8;
+  font-size: 14px;
+}
+
+/* ==============================
+   RESPONSIVE
+============================== */
+@media (max-width: 768px) {
+  .company-name {
+    font-size: 44px;
+  }
+
+  section {
+    padding: 50px 24px;
+  }
+
+  .content-box {
+    padding: 40px 30px;
+  }
+}
